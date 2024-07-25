@@ -80,7 +80,7 @@ body {
     font-size     : 60px;
     font-weight   : 600;
     text-transform: uppercase;
-    color         : #e9dfdf;
+    color         : white;
 }
 
 p {
@@ -120,6 +120,7 @@ p {
     justify-content: center;
     align-items    : center;
     margin         : 20px;
+    padding-bottom: 20px;
 }
 
 .sau {
