@@ -15,8 +15,6 @@ body {
     flex-direction: column;
 }
 
-
-
 .head {
     display         : flex;
     align-items     : center;
@@ -32,7 +30,6 @@ body {
 .navbar {
     display     : flex;
     margin-right: 10px;
-
 }
 
 .logo {
@@ -43,7 +40,6 @@ body {
     color         : #fff;
     text-transform: uppercase;
     font-size     : 20px;
-
 }
 
 .navbar a {
@@ -84,9 +80,14 @@ body {
 }
 
 p {
-    margin-bottom: 40px;
-    font-size    : 18px;
-    color        : #fff;
+    margin-bottom : 40px;
+    font-size     : 18px;
+    color         : #fff;
+    letter-spacing: 1;
+}
+
+.pa {
+    margin: 15px;
 }
 
 .btn {
@@ -114,13 +115,12 @@ p {
 }
 
 .conten {
-
     display        : flex;
     flex-direction : column;
     justify-content: center;
     align-items    : center;
     margin         : 20px;
-    padding-bottom: 20px;
+    padding-bottom : 20px;
 }
 
 .sau {
@@ -182,6 +182,4 @@ p {
     background-attachment: fixed;
     text-align           : center;
     background-size      : cover;
-
-
 }
